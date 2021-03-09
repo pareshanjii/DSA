@@ -12,7 +12,7 @@ def reverseArrayRecursive(arr,start,end):
         its O(n) with grater space than other function. space complaxity increse with increase of size of array.
     '''
 
-    if start >= end :
+    if start >= end:
         return
     else:
         arr[start], arr[end] = arr[end], arr[start]
